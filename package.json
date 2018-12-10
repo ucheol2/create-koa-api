@@ -1,0 +1,33 @@
+{
+  "name": "create-koa-api",
+  "version": "0.0.1",
+  "description": "Create koa base api server",
+  "main": "index.js",
+  "repository": "https://github.com/ucheol2/create-koa-api",
+  "author": "ucheol2",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "start:dev": "nodemon index.js -x 'yarn lint && babel-node'"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "argparse": "^1.0.10",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-watch": "^4.0.2",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-router": "^7.4.0"
+  }
+}
