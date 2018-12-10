@@ -11,7 +11,7 @@ const argparser = new ArgumentParser({
 const app = new Koa()
 
 argparser.addArgument(
-  [ '-p', '--port' ],
+  [ '--port' ],
   {
     help: 'listening port',
     defaultValue: 4000
